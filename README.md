@@ -16,3 +16,6 @@ This dataset is inspired by the UCLA Graduate Dataset. The test scores and GPA a
 
 # Inspiration
 This dataset was built with the purpose of helping students in shortlisting universities with their profiles. The predicted output gives them a fair idea about their chances for a particular university.
+
+# Heroku
+Check it out: https://graduateadmission.herokuapp.com/
