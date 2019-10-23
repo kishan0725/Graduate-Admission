@@ -17,9 +17,9 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}" method="post">
-      <input type="text" name="GRE" placeholder="GRE Score" required="required" />
-        <input type="text" name="TOEFL" placeholder="TOEFL Score" required="required" />
-    <input type="text" name="CGPA" placeholder="CGPA" required="required" />
+      <input type="text" name="GRE" placeholder="GRE Score(out of 340)" required="required" />
+        <input type="text" name="TOEFL" placeholder="TOEFL Score(out of 120)" required="required" />
+    <input type="text" name="CGPA" placeholder="CGPA(out of 10)" required="required" />
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
